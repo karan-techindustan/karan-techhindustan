@@ -1,0 +1,22 @@
+{
+    "$schema": "https://ui.shadcn.com/schema/registry.json",
+    "name": "karan-techhindustan",
+    "homepage": "https://techhindustan.com",
+    "items": [
+        {
+            "name": "th-page-header",
+            "type": "registry:component",
+            "title": "TechHindustan Page Header",
+            "description": "Reusable page header component for TechHindustan applications.",
+            "registryDependencies": [
+                "button"
+            ],
+            "files": [
+                {
+                    "path": "registry/default/th-page-header/th-page-header.tsx",
+                    "type": "registry:component"
+                }
+            ]
+        }
+    ]
+}
